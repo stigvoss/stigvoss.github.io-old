@@ -36,21 +36,32 @@ Visit my [GitHub](https://github.com/stigvoss).
 ### programming
 
 **C# and .NET**: Proficient knowledge of the language which includes experience with .NET Core, .NET Standard, ASP.NET MVC, ASP.NET Core and ASP.NET Core Blazor, WebAPI, SignalR, Entity Framework and Entity Framework Core, Windows Communication Foundation, Windows Presentation Foundation, Task Parallel Library, asynchronous paradigm, message queueing using Advanced Message Queuing Protocol, Dependency Injection og Inversion of Control using libraries such as Autofac and more.<br/>
-*Highly valued libraries include:* Autofac, CsvHelper, Flee, CommandLineParser, AngleSharp, Dapper and Accord.NET.<br/>
-**Java**: Moderate knowledge of the language which includes experience with Android and distributed programming using RESTlet and RMI and more.<br/>
-**Xamarin**: Entry level development knowledge using Xamarin Forms for cross-platform development.<br/>
-**PHP**: Moderate knowledge of the language, structure and API.<br/>
-**Flavors of SQL**: Moderate knowledge of the language for MySQL, Microsoft SQL and T-SQL, AspenTech SQLplus and Oracle.<br/>
-**TypeScript**: Entry level knowledge with webpack and React.<br/>
-**JavaScript**: Moderate knowledge of new ECMAScript standards and transpiling capabilites for browser compatiblity, [jQuery](https://jquery.com/) and asynchronous communication.<br/>
-**HTML5**: Strong knowledge of the markup language and long time experience with HTML.<br/>
-**CSS**: Moderate knowledge of language for setting up and creating responsive layouts.<br/>
+*Highly valued libraries include:* Autofac, CsvHelper, Flee, CommandLineParser, AngleSharp, Dapper and Accord.NET.
+
+**Java**: Moderate knowledge of the language which includes experience with Android and distributed programming using RESTlet and RMI and more.
+
+**Xamarin**: Entry level development knowledge using Xamarin Forms for cross-platform development.
+
+**PHP**: Moderate knowledge of the language, structure and API.
+
+**Flavors of SQL**: Moderate knowledge of the language for MySQL, Microsoft SQL and T-SQL, AspenTech SQLplus and Oracle.
+
+**TypeScript**: Entry level knowledge with webpack and React.
+
+**JavaScript**: Moderate knowledge of new ECMAScript standards and transpiling capabilites for browser compatiblity, [jQuery](https://jquery.com/) and asynchronous communication.
+
+**HTML5**: Strong knowledge of the markup language and long time experience with HTML.
+
+**CSS**: Moderate knowledge of language for setting up and creating responsive layouts.
+
 **SCSS and Sass**: Moderate knowledge of features and usage.
 
 ### networking
 
-**Configuration**: Moderate experience with configuration of ethernet-based LAN networks and moderate knowledge of inner workings of several protocols like VLAN (IEEE 802.1Q), DHCP, DNS, TCP/IP and more. Deep knowledge of the open-source all-in-one firewall appliance, pfSense. Fair knowledge of Cisco IOS and configuration.<br/>
-**Diagnostics**: Moderate knowledge of network diagnostics using e.g. tools like Wireshark.<br/>
+**Configuration**: Moderate experience with configuration of ethernet-based LAN networks and moderate knowledge of inner workings of several protocols like VLAN (IEEE 802.1Q), DHCP, DNS, TCP/IP and more. Deep knowledge of the open-source all-in-one firewall appliance, pfSense. Fair knowledge of Cisco IOS and configuration.
+
+**Diagnostics**: Moderate knowledge of network diagnostics using e.g. tools like Wireshark.
+
 **Network security**: Moderate knowledge of both LAN-based and WAN-based network security including e.g. VPN appliances like IPSec and OpenVPN.
 
 ## certifications
