@@ -3,7 +3,16 @@ layout: post
 title: Inaccessible Boot Device caused by Hyper-V on X370 Taichi
 tags: [hyper-v, windows, bluescreen, amd, ryzen, x370, asrock, bios]
 image: '/images/posts/bluescreen.jpg'
+excerpt_separator: <!--more-->
 ---
+
+I attempted to revert the changes made, starting with the BIOS. I downgraded directly from version 4.60 to 3.20 of the BIOS.
+
+The BIOS downgrade did it. The system booted with Hyper-V enabled following the BIOS downgrade.
+
+I am unsure why this worked and why the BIOS upgrade affected  virtualization, but having Google'd for several hours without finding  the solution, I thought I would post it here in the hope that my  discovery could help someone else who encountered the same issue.
+
+<!--more-->
 
 During a session of crash diagnostics on my Windows hypervisor running  Hyper-V, I caused the operating system to become completely  inaccessible. This is not the issue referenced in the title, but the  cause for me ending up having the issue.
 
