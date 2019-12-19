@@ -4,8 +4,12 @@ title: About
 image: '/images/pages/about.jpeg'
 ---
 
-You love Minimalism, and you also love writing, Type is designed for you. Type focus on showing your content in a clean and simple way, focus on images, typography, and white space.
+First of all, welcome to my blog and curriculum vitae. I am a enthusiastic software developer, primarily .NET, on both a hobby and a professional level.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+As a co-founder of danest consulting, I am a self-employed software development consultant focusing on smaller tasks or projects with a goal to convert needs or requirements of non-technical customers to the technical correct solution.
 
-Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te. Has cu eirmod abhorreant, vel civibus efficiantur cu. Eu summo elitr vix, iusto putant maluisset per ut, ne etiam vivendum adipisci vel. Vis omnis tempor accusam ei, justo perpetua liberavisse cu qui. Saperet aliquando adipiscing ius ne, ne facer euripidis est. Pro mundi nostrum suavitate et.
+Besides software development, I have a curious hobby interest in subjects such as software and IT security, cryptography, video surveillance, and server and network setups.
+
+I am proud to be called a gigantic nerd. I bear the title with pride as a proof of my dedication to my profession.
+
+- Stig Voss
