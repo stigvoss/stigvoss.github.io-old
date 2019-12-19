@@ -14,7 +14,7 @@ url:         'https://stigvoss.dk/' # The base hostname & protocol for your site
 twitter:     ''
 github:      'https://github.com/stigvoss/'
 instagram:   ''
-facebook:    ''
+facebook:    'https://facebook.com/stigvoss/'
 
 markdown:  kramdown
 permalink: pretty
