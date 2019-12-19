@@ -7,9 +7,7 @@ image: '/images/pages/about.jpeg'
 ## personal information
 
 **Name**: Stig Voss
-
 **Birth**: 7th June, 1990 – Esbjerg, Denmark
-
 **Languages**: Danish (native), English (fluent)
 
 ## educations
