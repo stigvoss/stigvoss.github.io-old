@@ -22,7 +22,7 @@ The hypervisor is configured as following:
 
 I tried experimenting with BIOS settings, disabling features such as SR-IOV based on [this thread](https://www.reddit.com/r/sysadmin/comments/5yfvzf/adding_hyperv_role_to_server_2016_stops_it_booting/), but no luck.
 
-# Solution
+## Solution
 
 Feeling out of options, I attempted to revert the changes made, starting with  the BIOS. I downgraded directly from version 4.60 to 3.20 of the BIOS.
 
