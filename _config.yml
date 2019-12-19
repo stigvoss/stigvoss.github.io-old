@@ -12,7 +12,7 @@ description: ''
 baseurl:     '' # The subpath of your site, e.g. /blog
 url:         'https://stigvoss.dk/' # The base hostname & protocol for your site
 twitter:     ''
-github:      'stigvoss'
+github:      'https://github.com/stigvoss/'
 instagram:   ''
 facebook:    ''
 
