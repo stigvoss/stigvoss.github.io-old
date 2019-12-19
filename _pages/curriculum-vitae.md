@@ -7,16 +7,23 @@ image: '/images/pages/about.jpeg'
 ## personal information
 
 **Name**: Stig Voss
+
 **Birth**: 7th June, 1990 – Esbjerg, Denmark
+
 **Languages**: Danish (native), English (fluent)
 
 ## educations
 
 [**Egekratskolen**](http://www.egekratskolen.skoleintra.dk/): Folkeskole – 1996 to 2004
+
 [**Næsbjerg Skole**](http://www.naesbjergskole.skoleintra.dk/): Folkeskole, including 10th grade – 2004 to 2007
+
 [**Varde Handelsskole og Handelsgymnasium**](http://www.vardehs.dk/): [HHX, International Marketing](http://www.vardehs.dk/hhx/studieretninger-foer-2013/international-marketing.aspx) – 2007 to 2010
+
 [**Erhvervsakademi SydVest**](https://www.easv.dk/en/): [AP Computer Science](https://www.easv.dk/en/computer-science) – 2011 to 2014
+
 [**Erhvervsakademi SydVest**](https://www.easv.dk/en/): [PBA Software Development](https://www.easv.dk/en/software-development-int) – 2014 to 2015
+
 [**Syddansk Universitet**](http://www.sdu.dk/en/): [MSc Software Engineering](http://www.sdu.dk/en/Uddannelse/Kandidat/SoftwareEngineering) – 2015
 
 ## experiences
