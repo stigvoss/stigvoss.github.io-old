@@ -12,4 +12,4 @@ Besides software development, I have a curious hobby interest in subjects such a
 
 I am proud to be called a gigantic nerd. I bear the title with pride as a proof of my dedication to my profession.
 
-- Stig Voss
+Stig Voss
