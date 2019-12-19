@@ -5,27 +5,27 @@ tags: [hyper-v, windows, bluescreen, amd, ryzen, x370, asrock, bios]
 image: '/images/posts/bluescreen.jpg'
 ---
 
-Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te. Has cu eirmod abhorreant, vel civibus efficiantur cu. Eu summo elitr vix, iusto putant maluisset per ut, ne etiam vivendum adipisci vel. Vis omnis tempor accusam ei, justo perpetua liberavisse cu qui. Saperet aliquando adipiscing ius ne, ne facer euripidis est. Pro mundi nostrum suavitate et.
+During a session of crash diagnostics on my Windows hypervisor running  Hyper-V, I caused the operating system to become completely  inaccessible. This is not the issue referenced in the title, but the  cause for me ending up having the issue.
 
-Vix dico eius nominati cu, ex zril commodo fuisset mea. Habeo adhuc audiam ius no. In quis virtute officiis has. Vix ad honestatis accommodare, quis virtute et sit, pertinax expetenda eam id. Duo an fuisset delectus dissentias, justo altera ea per.
+To resolve the previous  issue, I attempted to update the BIOS from 3.20 to 3.30 and finally to  4.60, but no luck. Defeated, I turned to reinstalling Windows.
 
-##### Todo
+Following the reinstall, Windows booted just fine. Though, it was discovered that when installing the Hyper-V feature, Windows would not boot anymore.
 
-Duis id ante elit. Aliquam quis tellus id orci eleifend finibus. Donec consequat justo ligula, eget sodales purus hendrerit at.
+Booting with Hyper-V installed caused a INACCESSIBLE_BOOT_DEVICE bluescreen.
 
-1. Ut at interdum nunc. Maecenas commodo turpis quis elementum gravida.
-2. Nunc ac sapien tellus. Quisque risus enim, tempus eget porttitor in, pellentesque vel urna.
-    Donec nibh massa, rutrum a sollicitudin eu,
-lacinia in lorem.
+The hypervisor is configured as following:
 
-##### Graphic design
+- AMD Ryzen 1700
+- 64 GB DDR4 RAM
+- [ASRock X370 Taichi](https://www.asrock.com/mb/AMD/X370 Taichi/)
+- 2x SATA SSD in RAID1 using AMD RAID for Windows
 
-> Graphic design is the paradise of individuality, eccentricity, heresy, abnormality, hobbies, and humors. - George Santayana
+I tried experimenting with BIOS settings, disabling features such as SR-IOV based on [this thread](https://www.reddit.com/r/sysadmin/comments/5yfvzf/adding_hyperv_role_to_server_2016_stops_it_booting/), but no luck.
 
-Vim te case nihil oblique, has partem interpretaris ne, ad admodum accusamus nam. Usu utinam dissentias referrentur ne, vim accusam voluptua pertinacia no. Est no posse utinam inermis, brute errem mentitum et ius, te prompta albucius quo. In pro simul soleat regione.
+# Solution
 
-![alt](https://images.unsplash.com/photo-1433785567155-bf5530cab72c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=1348aea714b9493fa61a09a8c01113e6)
+Feeling out of options, I attempted to revert the changes made, starting with  the BIOS. I downgraded directly from version 4.60 to 3.20 of the BIOS.
 
-Ne reque offendit singulis mea, ad eos ferri doming nostrud. Duis suscipit usu ut, fuisset pericula ex est, et porro prompta his. Audire definiebas voluptatibus et duo, aperiam ocurreret ad nec. Vel ad nostrud principes. Ad liber congue iracundia sed, eirmod erroribus eam te, has veniam epicurei ea.
+The BIOS downgrade did it. The system booted with Hyper-V enabled following the BIOS downgrade.
 
-Pri probo alterum aliquando an. Duo appetere laboramus intellegat ea, ex suas diam exerci vix. Mel simul debitis id, est nusquam fuisset mentitum in. Te mei iudico iisque.
+I am unsure why this worked and why the BIOS upgrade affected  virtualization, but having Google'd for several hours without finding  the solution, I thought I would post it here in the hope that my  discovery could help someone else who encountered the same issue.
