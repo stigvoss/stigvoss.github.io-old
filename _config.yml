@@ -17,7 +17,7 @@ instagram:   ''
 facebook:    'https://facebook.com/stigvoss/'
 
 markdown:  kramdown
-permalink: pretty
+permalink: /:year/:month/:day/:title/
 paginate:  10
 
 sass:
@@ -45,4 +45,4 @@ defaults:
   - scope:
       path: '_pages'
     values:
-      permalink: /:basename:output_ext
+      permalink: /:basename
