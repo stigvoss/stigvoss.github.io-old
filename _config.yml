@@ -17,7 +17,7 @@ instagram:   ''
 facebook:    'https://facebook.com/stigvoss/'
 
 markdown:  kramdown
-permalink: /blog/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
 paginate:  10
 
 sass:
