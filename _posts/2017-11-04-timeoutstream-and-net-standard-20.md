@@ -3,6 +3,7 @@ layout: post
 title: TimeoutStream and .NET Standard 2.0
 tags: [.NET, C#, Code example, I/O, Toolbox, Github]
 categories: [Programming, .NET]
+image: /images/posts/stopwatch.jpg
 ---
 
 Currently, Microsoft is working hard on providing better cross-platform tools for  .NET developers and this is primarily manifested in their effort of  developing the .NET Core and .NET Standard frameworks for cross-platform deployment of e.g. .NET Core MVC applications on Windows, several Linux distributions, and macOS.
