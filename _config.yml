@@ -9,7 +9,7 @@
 title:       stig voss
 email:       'a42d1e25e4432b9ef53c389f0e175dcb@50ce4c50.ee'
 description: 'on information technology'
-baseurl:     '/blog' # The subpath of your site, e.g. /blog
+baseurl:     '' # The subpath of your site, e.g. /blog
 url:         'https://stigvoss.dk/' # The base hostname & protocol for your site
 twitter:     ''
 github:      'https://github.com/stigvoss/'
