@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Improve online security using a password manager, pt. 1: Why should I use a password manager?
+title: "Improve online security using a password manager, pt. 1: Why should I use a password manager?"
 tags: [cryptography, encryption, online security, password manager, security, strong password]
 categories: [ Password managers, Security ]
 redirect_from:
