@@ -2,6 +2,8 @@
 layout: page
 title: about
 image: '/images/pages/about.jpeg'
+redirect_from:
+  - /contact-information/
 ---
 
 First of all, welcome to my blog and curriculum vitae. I am a enthusiastic software developer, primarily .NET, on both a hobby and a professional level.
