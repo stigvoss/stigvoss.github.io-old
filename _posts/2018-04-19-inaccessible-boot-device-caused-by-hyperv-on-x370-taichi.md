@@ -2,6 +2,7 @@
 layout: post
 title: Inaccessible Boot Device caused by Hyper-V on X370 Taichi
 tags: [hyper-v, windows, bluescreen, amd, ryzen, x370, asrock, bios]
+categories: [Hyper-V]
 image: '/images/posts/bluescreen.jpg'
 ---
 
