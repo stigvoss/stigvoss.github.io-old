@@ -5,7 +5,7 @@ tags: [hyper-v, windows, bluescreen, amd, ryzen, x370, asrock, bios]
 categories: [Hyper-V]
 image: '/images/posts/bluescreen.jpg'
 redirect_from:
-  - blog/2018/4/19/inaccessible-boot-device-caused-by-hyper-v
+  - /blog/2018/4/19/inaccessible-boot-device-caused-by-hyper-v
 ---
 
 During a session of crash diagnostics on my Windows hypervisor running  Hyper-V, I caused the operating system to become completely  inaccessible. This is not the issue referenced in the title, but the  cause for me ending up having the issue.

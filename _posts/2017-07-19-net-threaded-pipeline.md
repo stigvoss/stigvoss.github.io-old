@@ -4,6 +4,8 @@ title: Mutli-threaded pipeline in C#
 tags: [.NET, C#, Threading, Code example, Toolbox, Github]
 categories: [Programming, .NET]
 image: '/images/posts/assembly-line.jpg'
+redirect_from:
+  - /blog/2017/7/7/net-threaded-pipeline
 ---
 
 As the processors of today's computers are getting increasingly more  powerful and with the raise of multi-core processors, multi-threading is becoming increasingly more important for CPU intensive tasks.
