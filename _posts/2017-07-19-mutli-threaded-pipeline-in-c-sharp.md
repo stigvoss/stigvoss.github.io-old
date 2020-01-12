@@ -8,6 +8,8 @@ redirect_from:
   - /blog/2017/7/7/net-threaded-pipeline
 ---
 
+_Disclaimer: Time passes and lessons are learned. Although I learned a lot producing this code, I do not recommend anyone using it as it is an unsupported piece of code. Instead, I would recommend people take a look at the [Dataflow in Task Parallel Library](https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/dataflow-task-parallel-library). This is a well-made and supported framework doing exactly what I attempted to do. A post looking into Dataflow is coming._
+
 As the processors of today's computers are getting increasingly more powerful and with the raise of multi-core processors, multi-threading is becoming increasingly more important for CPU intensive tasks.
 
 Although not all tasks are suitable for execution in complete parallel, as the input-output order of data is crucial and it may consist of a series of operations which need to be executed sequentially, most tasks can be split into smaller isolated chunks of operations.
