@@ -23,10 +23,12 @@ paginate:  10
 sass:
   style: compressed
 
-plugins:
+plugins_dir:
   - jekyll-paginate
   - jekyll/tagging
   - jekyll-redirect-from
+
+gems: [jekyll-paginate]
 
 include:
   - _pages
