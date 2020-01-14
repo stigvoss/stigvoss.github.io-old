@@ -27,8 +27,9 @@ plugins_dir:
   - jekyll-paginate
   - jekyll/tagging
   - jekyll-redirect-from
+  - jekyll-sitemap
 
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-sitemap]
 
 include:
   - _pages
